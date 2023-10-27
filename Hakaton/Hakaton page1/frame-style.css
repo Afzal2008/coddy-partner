@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 0.1px solid #ea6916;
+}
+.menu-inp {
+  display: flex;
+  column-gap: 30px;
+}
+.input-menu {
+  display: flex;
+  width: 100%;
+  column-gap: 10px;
+  background-color: #1a1a1a;
+  border: 1px solid #594646;
+  border-radius: 16px;
+  padding: 10px;
+}
+.inp-text {
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  color: #d1bebe;
+  width: 85%;
+  font-size: 15px;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  padding: 80px 0;
+}
+.container {
+  background-color: rgb(13, 17, 22);
+}
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  padding: 60px 0 100px 0;
+}
+#border {
+  width: 25%;
+  border: 1px solid #ea6916;
+}
+.prize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+
+#group {
+  display: flex;
+  align-items: center;
+  left: 200px;
+}
+.footer {
+  background-color: black;
+  padding: 60px 100px 0 100px;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 140px 0;
+}
+.input {
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  border: 1px solid #594646;
+  border-radius: 16px;
+  padding: 10px;
+}
+.inp-txt {
+  border: none;
+  outline: none;
+  background-color: #1a1a1a;
+  color: #d1bebe;
+  width: 65%;
+  font-size: 15px;
+}
+.send {
+  display: flex;
+  align-items: center;
+  background-color: #ff7043;
+  padding: 12px 10px;
+  border-radius: 12px;
+  gap: 6px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.submit {
+  background-color: #ff7043;
+  border: none;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.message-icon {
+  display: flex;
+  column-gap: 20px;
+}
+.message-icon > img {
+  width: 50px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+.info {
+  display: flex;
+  font-size: 15px;
+  font-weight: 300;
+  justify-content: center;
+  color: white;
+  padding-bottom: 15px;
+}
