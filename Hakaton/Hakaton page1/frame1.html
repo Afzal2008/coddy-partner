@@ -20,7 +20,16 @@
                 <img src="icons8-search-100.png" alt="" width="25px" style="cursor: pointer;">
                 <input class="inp-text" type="text" placeholder="Search">
             </div>
-            <img style="cursor: pointer;" src="Menu.png" alt="" width="35px">
+            <!-- <img style="cursor: pointer;" src="Menu.png" alt="" width="35px"> -->
+
+            <button class="burger" onclick="toggleMenu()">
+                <div class="container0" onclick="myFunction1(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+
         </div>
     </div>
     <div class="container">
@@ -60,6 +69,14 @@
         <p style="border: 0.1px solid white; margin-bottom: 10px;"></p>
         <h3 class="info">Copyright CopyPaste 2023</h3>
     </div>
+
+
+    <script type="text/javascript">
+        function myFunction1(x) {
+            x.classList.toggle("change");
+        }
+
+    </script>
 </body>
 
 </html>
